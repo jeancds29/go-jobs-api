@@ -1,10 +1,6 @@
-# GoJob Opportunities API
+# Job Opportunities API Made in Go
 
-<p align="center">
-  <img src="./assets/GopportunitiesHeader.svg" alt="GoJob Header">
-</p>
-
-This project is a modern job opportunities API built using Golang, currently one of the highest paying programming languages. The API is powered by Go-Gin as a router, GoORM for database communication, SQLite as the database, and Swagger for API documentation and testing. The project follows a modern package structure to keep the codebase organized and maintainable.
+ The API is powered by Go-Gin as a router, GoORM for database communication, SQLite as the database, and Swagger for API documentation and testing. The project follows a modern package structure to keep the codebase organized and maintainable.
 
 ---
 
@@ -20,13 +16,6 @@ This project is a modern job opportunities API built using Golang, currently one
 - Implementing a complete job opportunities API with endpoints for searching, creating, editing, and deleting opportunities
 - Implementing automated tests to ensure API quality
 
-## Live Version
-
-You can check the documentation and perform tests to the API by visiting the live version hosted at [gopportunities.excalidevs.com](https://gopportunities.excalidevs.com/swagger/index.html).
-
-## Video Tutorial
-
-You can follow the step-by-step instructions on how to create this project by watching the [video tutorial](https://youtu.be/wyEYpX5U4Vg) (in Portuguese).
 
 ## Installation
 
@@ -72,10 +61,6 @@ To stop and remove containers, networks, and volumes defined in the `docker-comp
 docker-compose down
 ```
 
-For more information on Docker and Docker Compose, refer to the official documentation:
-
-- [Docker](https://docs.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
 
 ## Used Tools
 
@@ -92,23 +77,3 @@ This project uses the following tools:
 After the API is running, you can use the Swagger UI to interact with the endpoints for searching, creating, editing, and deleting job opportunities. The API can be accessed at `http://localhost:$PORT/swagger/index.html`.
 
 Default $PORT if not provided=8080.
-
-## Contributing
-
-To contribute to this project, please follow these guidelines:
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Make your changes and commit them using Conventional Commits
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Submit a pull request
-
----
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-## Credits
-
-This project was created by [arthur404dev](https://github.com/arthur404dev).
